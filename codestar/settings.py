@@ -29,6 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 ALLOWED_HOSTS = ["mb2test.herokuapp.com", "localhost"]
 
 # Application definition
